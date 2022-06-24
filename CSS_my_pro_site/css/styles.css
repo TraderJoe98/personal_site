@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+p {
+  font-size: 16px;
+  font-family: 'Merriweather', serif;
+}
+hr {
+  border-color: grey;
+  border-style: none none dotted;
+  border-width: 5px;
+  width: 5%;
+}
+h1 {
+  font-size: 45px;
+    font-family: 'Playfair Display SC', serif;
+    color: #1363DF;
+}
+h2 {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 30px;
+}
+h3 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.4rem;
+  color: rgb(100, 200, 255);
+}
+h4 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.4rem;
+  color: #1363DF;
+}
+h5 {
+  font-family: 'Merriweather', serif;
+  color: #EAF6F6;
+}
+a {
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+}
+a:hover {
+  color:rgb(100, 200, 220);
+  }
+  .cloud-top {
+  position:absolute;
+  top: 50px;
+  right:350px;
+}
+.cloud-bottom {
+  position: absolute;
+  left:400px;
+  top:250px;
+}
+
+.footer-link {
+  font-size: 16px;
+}
+
+.skill-row-left {
+  width: 50%;
+  margin:80px auto 80px auto;
+  text-align: left;
+}
+.skill-row-right {
+  width: 50%;
+  margin:80px auto 80px auto;
+  text-align: right;
+}
+
+.skills-img-left {
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.skills-img-right {
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+#top-container{
+background-color: rgb(154, 220, 255);
+  position: relative;
+  padding-top: 100px;
+}
+#bottom-container{
+background-color: rgb(154, 220, 255);
+  position: relative;
+  margin-top: 80px;
+  padding:20px 0 40px;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:6px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
